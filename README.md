@@ -26,5 +26,3 @@ The main purpose of this web application is to provide an advanced version of AI
 ## Deployment
 
 This project is deployed on Netlify and can be accessed through the following link: [網站連結](https://web-ui-tag-helper-v3.netlify.app/tag#editor).
-
-# 以上README.md 來自ChatGPT產出的的總結
