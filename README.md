@@ -1,28 +1,33 @@
+# Web-UI-SD Prompt Formatter v3
 
-# WEB-UI AI-Art Prompt Editor v3 (React 18)
+A simple and powerful tool for formatting prompts used in Web UI for AI-generated art.  
+This tool helps you split, assign weights, organize, and save prompts more easily.
 
-This project is the third version of the WEB-UI AI-Art Prompt Editor. The first version was abandoned and the second version was developed using Angular 14. In this latest version, React 18 was used instead.
+This is the third version of the project.  
+- Version 1 was discontinued.  
+- Version 2 was built with Angular 14. (2022/11/24)
+- This version is rebuilt using **React 18** for better performance and flexibility. (2023/02/26)
 
-This project is deployed on Netlify as a static website. It utilizes Mantine and Bootstrap as its primary styling frameworks and also integrates several NPM packages such as CodeMirror and Dnd-kit.
+## Purpose
 
-The main purpose of this web application is to provide an advanced version of AI drawing prompt editor, which is more user-friendly and convenient to use compared to the basic text editor provided by web UI.
+To provide a more user-friendly and visual alternative to basic text editing for web-ui-sd prompts.
 
 ## Features
 
-- **Customizable tag groups**: The user can create up to 10 tag groups and modify them as needed.
-- **Save and load feature**: This application allows users to quickly save and access their prompt designs.
-- **Intuitive weighting adjustments**: Users can easily adjust the weightings of prompts using a more visual and simple approach, instead of manually modifying the text.
-- **Sortable prompt components**: Prompts can be treated as components and conveniently sorted using drag and drop feature.
+- Create and manage up to 10 tag groups  
+- Save and load your prompt configurations  
+- Visually adjust prompt weights without editing raw text  
+- Drag and drop prompt components to change their order  
 
-## Technologies Used
+## Tech Stack
 
-- React
-- Typescript
-- Mantine
-- Bootstrap
-- CodeMirror
-- Dnd-kit
+- **React 18**  
+- **TypeScript**  
+- **Mantine** – UI components  
+- **Bootstrap** – layout and styling  
+- **CodeMirror** – text/code editor  
+- **Dnd-kit** – drag-and-drop functionality  
 
 ## Deployment
 
-This project is deployed on Netlify and can be accessed through the following link: [網站連結](https://web-ui-tag-helper-v3.netlify.app/tag#editor).
+Hosted on Netlify: [Website Link](https://web-ui-tag-helper-v3.netlify.app/tag#editor)
